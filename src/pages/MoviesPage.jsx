@@ -85,7 +85,7 @@ const MoviesPage = () => {
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-red-400">
                   {activeQuery ? 'Search results' : 'Popular shows'}
                 </p>
-                <h2 className="mt-1 text-2xl font-bold text-white">
+                <h2 className="mt-1 text-xl font-bold text-white">
                   {activeQuery ? `Results for “${activeQuery}”` : 'Explore all shows'}
                 </h2>
               </div>
