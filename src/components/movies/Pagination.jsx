@@ -38,7 +38,17 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         className="btn btn-square border border-white/10 bg-white/5 text-white shadow-none hover:border-red-500 hover:bg-red-600 disabled:border-white/5 disabled:bg-white/3 disabled:text-white/20"
         aria-label="Previous page"
       >
-        <span aria-hidden="true">&larr;</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          className="size-5"
+          aria-hidden="true"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" d="m15 18-6-6 6-6" />
+        </svg>
       </button>
 
       {visiblePages.map((page) =>
@@ -63,7 +73,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
             className="grid size-12 place-items-center text-white/35"
             aria-hidden="true"
           >
-            &hellip;
+            ...
           </span>
         ),
       )}
@@ -75,7 +85,17 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         className="btn btn-square border border-white/10 bg-white/5 text-white shadow-none hover:border-red-500 hover:bg-red-600 disabled:border-white/5 disabled:bg-white/3 disabled:text-white/20"
         aria-label="Next page"
       >
-        <span aria-hidden="true">&rarr;</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          className="size-5"
+          aria-hidden="true"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" d="m9 6 6 6-6 6" />
+        </svg>
       </button>
     </nav>
   )

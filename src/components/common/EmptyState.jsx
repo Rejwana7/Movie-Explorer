@@ -15,8 +15,7 @@ const EmptyState = ({ query }) => {
       </svg>
       <h2 className="mt-5 text-xl font-bold text-white">No movies found</h2>
       <p className="mt-2 max-w-md text-sm leading-6 text-white/55">
-        We could not find anything for &ldquo;{query}&rdquo;. Try another movie
-        or show title.
+        No results found for {query}. Try another movie or show title.
       </p>
     </div>
   )
