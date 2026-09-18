@@ -30,13 +30,12 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
   return (
     <nav
       className="mt-12 flex flex-wrap items-center justify-center gap-2"
-      aria-label="Movie results pagination"
-    >
+      aria-label="Movie results pagination" >
       <button
         type="button"
         onClick={() => onPageChange(currentPage - 1)}
         disabled={currentPage === 1}
-        className="btn btn-square border border-white/10 bg-white/5 text-white shadow-none hover:border-red-500 hover:bg-red-600 disabled:border-white/5 disabled:bg-white/[0.03] disabled:text-white/20"
+        className="btn btn-square border border-white/10 bg-white/5 text-white shadow-none hover:border-red-500 hover:bg-red-600 disabled:border-white/5 disabled:bg-white/3 disabled:text-white/20"
         aria-label="Previous page"
       >
         <span aria-hidden="true">&larr;</span>
@@ -73,7 +72,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         type="button"
         onClick={() => onPageChange(currentPage + 1)}
         disabled={currentPage === totalPages}
-        className="btn btn-square border border-white/10 bg-white/5 text-white shadow-none hover:border-red-500 hover:bg-red-600 disabled:border-white/5 disabled:bg-white/[0.03] disabled:text-white/20"
+        className="btn btn-square border border-white/10 bg-white/5 text-white shadow-none hover:border-red-500 hover:bg-red-600 disabled:border-white/5 disabled:bg-white/3 disabled:text-white/20"
         aria-label="Next page"
       >
         <span aria-hidden="true">&rarr;</span>

@@ -53,7 +53,7 @@ const MoviesPage = () => {
 
   return (
     <section className="relative min-h-[calc(100svh-5rem)] overflow-hidden bg-[#0d0e13] px-4 pb-20 pt-28 sm:px-6 sm:pt-32 lg:px-8">
-      <div className="pointer-events-none absolute left-1/2 top-20 -z-0 h-72 w-[42rem] max-w-full -translate-x-1/2 rounded-full bg-red-600/5 blur-3xl" />
+      <div className="pointer-events-none absolute left-1/2 top-20 z-0 h-72 w-2xl max-w-full -translate-x-1/2 rounded-full bg-red-600/5 blur-3xl" />
 
       <div className="relative z-10 mx-auto max-w-7xl">
         <div className="text-center">
