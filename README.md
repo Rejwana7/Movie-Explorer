@@ -2,7 +2,7 @@
 
 A responsive movie and TV show discovery application built with React. Browse shows, search the TVMaze catalog by title, move through paginated results, and open a detailed view without leaving the page.
 
-**Live site:** [movie-explorer-rho-topaz.vercel.app](https://movie-explorer-rho-topaz.vercel.app)
+**Live site:** [movie-explorer-alpha-eight.vercel.app](https://movie-explorer-alpha-eight.vercel.app/)
 
 ## Features
 
@@ -121,5 +121,4 @@ Before deploying, verify the project locally:
 npm run lint
 npm run build
 ```
-
 
